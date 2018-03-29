@@ -16,4 +16,5 @@ export default [
   {type: 'text', timestamp: 1522328034485, author: "me", data: { text: "No forget the story. "} },
   {type: 'text', timestamp: 1522328104485, author: "them", data: { text: "You've got to have a story."} },
   {type: 'emoji', timestamp: 1522328504485, author: "me", data: { emoji: "😋"} },
+  {type: 'emoji', timestamp: 1522328604485, author: "them", data: { emoji: "😋"} },
 ]
