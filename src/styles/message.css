@@ -8,6 +8,7 @@
 .sc-message--content {
   width: 100%;
   display: flex;
+  position: relative;
 }
 
 .sc-message--content.sent {
@@ -16,6 +17,22 @@
 
 .sc-message--content.sent .sc-message--avatar {
   display: none;
+}
+
+.sc-message--timestamp  {
+    position: absolute;
+    font-size: 0.5rem;
+    margin-bottom: 5px;
+}
+
+.sent .sc-message--timestamp {
+    left: 0;
+    margin-left: 5px;
+}
+
+.received .sc-message--timestamp {
+    right: 0;
+    margin-right: 5px;
 }
 
 .sc-message--avatar {
@@ -31,6 +48,7 @@
 }
 
 .sc-message--text {
+  position: relative;
   padding: 17px 20px;
   border-radius: 6px;
   font-weight: 300;
